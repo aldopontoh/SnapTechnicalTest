@@ -1,0 +1,219 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (7.1.3.4)
+      base64
+      bigdecimal
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      connection_pool (>= 2.2.5)
+      drb
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      mutex_m
+      tzinfo (~> 2.0)
+    addressable (2.8.7)
+      public_suffix (>= 2.0.2, < 7.0)
+    appium_lib (15.1.0)
+      appium_lib_core (~> 9.0)
+      nokogiri (~> 1.8, >= 1.8.1)
+      tomlrb (>= 1.1, < 3.0)
+    appium_lib_core (9.1.3)
+      faye-websocket (~> 0.11.0)
+      selenium-webdriver (~> 4.21)
+    appom (1.4.0)
+      appium_lib (>= 9.4)
+      cucumber (>= 2.3)
+    base64 (0.2.0)
+    bigdecimal (3.1.8)
+    builder (3.3.0)
+    byebug (11.1.3)
+    capybara (3.40.0)
+      addressable
+      matrix
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.11)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
+    capybara-screenshot (1.0.26)
+      capybara (>= 1.0, < 4)
+      launchy
+    childprocess (5.0.0)
+    chunky_png (1.4.0)
+    coderay (1.1.3)
+    concurrent-ruby (1.3.3)
+    connection_pool (2.4.1)
+    cucumber (9.2.0)
+      builder (~> 3.2)
+      cucumber-ci-environment (> 9, < 11)
+      cucumber-core (> 13, < 14)
+      cucumber-cucumber-expressions (~> 17.0)
+      cucumber-gherkin (> 24, < 28)
+      cucumber-html-formatter (> 20.3, < 22)
+      cucumber-messages (> 19, < 25)
+      diff-lcs (~> 1.5)
+      mini_mime (~> 1.1)
+      multi_test (~> 1.1)
+      sys-uname (~> 1.2)
+    cucumber-ci-environment (10.0.1)
+    cucumber-core (13.0.2)
+      cucumber-gherkin (>= 27, < 28)
+      cucumber-messages (>= 20, < 23)
+      cucumber-tag-expressions (> 5, < 7)
+    cucumber-cucumber-expressions (17.1.0)
+      bigdecimal
+    cucumber-gherkin (27.0.0)
+      cucumber-messages (>= 19.1.4, < 23)
+    cucumber-html-formatter (21.4.0)
+      cucumber-messages (> 19, < 25)
+    cucumber-messages (22.0.0)
+    cucumber-tag-expressions (6.1.0)
+    cuke_sniffer (1.1.0)
+      nokogiri (~> 1.6, >= 1.6.8)
+      roxml (~> 3.3, >= 3.3.1)
+    diff-lcs (1.5.1)
+    dotenv (3.1.2)
+    drb (2.2.1)
+    eventmachine (1.2.7)
+    faker (3.4.1)
+      i18n (>= 1.8.11, < 2)
+    faye-websocket (0.11.3)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    ffi (1.17.0-x64-mingw-ucrt)
+    i18n (1.14.5)
+      concurrent-ruby (~> 1.0)
+    json (2.7.2)
+    launchy (3.0.1)
+      addressable (~> 2.8)
+      childprocess (~> 5.0)
+    logger (1.6.0)
+    matrix (0.4.2)
+    method_source (1.1.0)
+    mini_mime (1.1.5)
+    minitest (5.24.1)
+    multi_test (1.1.0)
+    mutex_m (0.2.0)
+    new_data_magic (1.2)
+      faker (>= 1.9)
+      yml_reader (>= 0.6)
+    nokogiri (1.16.6-x64-mingw-ucrt)
+      racc (~> 1.4)
+    os (1.1.4)
+    parallel (1.25.1)
+    parallel_tests (4.7.1)
+      parallel
+    pry (0.14.2)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    pry-byebug (3.10.1)
+      byebug (~> 11.0)
+      pry (>= 0.13, < 0.15)
+    public_suffix (6.0.0)
+    racc (1.8.0)
+    rack (3.1.6)
+    rack-test (2.1.0)
+      rack (>= 1.3)
+    rake (13.2.1)
+    regexp_parser (2.9.2)
+    report_builder (1.9)
+      json (>= 2.3.0)
+    require_all (3.0.0)
+    rexml (3.3.1)
+      strscan
+    roxml (3.3.1)
+      activesupport (>= 2.3.0)
+      nokogiri (>= 1.3.3)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.0)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.1)
+    ruby-ole (1.2.13.1)
+    rubyzip (2.3.2)
+    selenium-cucumber (3.1.5)
+      appium_lib (>= 8.0.2)
+      chunky_png (>= 1.3.5)
+      cucumber (>= 2.3.0)
+      rspec (>= 3.4.0)
+      selenium-webdriver (>= 2.53.0)
+    selenium-webdriver (4.22.0)
+      base64 (~> 0.2)
+      logger (~> 1.4)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 3.0)
+      websocket (~> 1.0)
+    show_me_the_cookies (6.0.0)
+      capybara (>= 2, < 4)
+    site_prism (5.0.3)
+      addressable (~> 2.8, >= 2.8.4)
+      capybara (~> 3.32)
+      site_prism-all_there (> 2, < 5)
+    site_prism-all_there (3.0.5)
+    site_prism-table (0.2.0)
+      nokogiri
+      site_prism
+    spreadsheet (1.3.1)
+      bigdecimal
+      ruby-ole
+    strscan (3.1.0)
+    syntax (1.2.2)
+    sys-uname (1.3.0)
+      ffi (~> 1.1)
+    tomlrb (2.0.3)
+    touch_action (1.3.3)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    websocket (1.2.10)
+    websocket-driver (0.7.6)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+    yml_reader (0.7)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  appium_lib
+  appom
+  byebug
+  capybara
+  capybara-screenshot
+  chunky_png
+  cucumber
+  cuke_sniffer
+  dotenv
+  new_data_magic (~> 1.2)
+  os
+  parallel_tests
+  pry
+  pry-byebug
+  rake
+  report_builder
+  require_all
+  rspec
+  selenium-cucumber
+  selenium-webdriver
+  show_me_the_cookies
+  site_prism
+  site_prism-table
+  spreadsheet
+  syntax
+  touch_action
+
+RUBY VERSION
+   ruby 3.3.3p89
+
+BUNDLED WITH
+   2.5.14
