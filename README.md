@@ -6,6 +6,7 @@ Snap Technical Test
 Halo, ini adalah hasil automation menggunakan Ruby + Cucumber
 Di dalam repo ini ada automation untuk Website
 Pembuatan automation ini menggunakan OS Windows 11 dan Ruby 3.3.3
+Scriptnya ada di branch master
 
 Untuk menjalankan automation ini pastikan sudah menyiapkan beberapa hal dibawah ini :
 -Sudah mendownload dan install ruby (dalam repo ini memakasi versi ruby 3.3.3)
